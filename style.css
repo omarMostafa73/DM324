@@ -1,57 +1,72 @@
-<link rel="Stylesheet" ; type="text/css" ; herf="Syle.css">
-ul{
-    list-style-type: none;
-    border: 1px solid grey;
-    background-color:lightgray;
-    overflow: hidden;
-    padding: 0px;
-    margin: 0px;
+body{
+    /*background-image:url(https://upload.wikimedia.org/wikipedia/commons/1/1f/Future_University_in_Egypt_official_logo.jpg) ;
+ background-repeat: no-repeat;
+ background-position: center;*/
+ background-color: black;
 }
-li{
-    float: left;
-}
-li a{
-    display: block;
-    text-decoration: none;
-    color: dimgray;
-    padding:14px;
-}
-li a:hover{
-    background-color: black;
-    color: white;
-}
-.nav-right{
-    float: right;
-}
-.active{
-    background-color: green;
-    color: white;
-}
-.active:hover{
-    background-color: green;
-    color: white;
-}
-table{
-    border-collapse:collapse ;
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-}
-thead tr{
-    background-color: green;
+.title{
     text-align: center;
-    color: white;
-}
-tbody tr:nth-child(odd){
-   /* background-image: linear-gradient(red, yellow); */
-   background-color: lightgray;
-}
-img{
-    margin-left: 25%;
-    margin-right: 25%;
 }
 h1{
-    display: block;
-    background-image: linear-gradient(lightgreen,grey);
-    border: 1px solid black;
+    color:rgb(9, 32, 134);
+}
+h2{
+    color: rgb(67, 9, 134);
+}
+h3{
+    color: rgb(53, 9, 134);
+}
+h4{
+    color: rgb(9, 59, 134);
+}
+li{
+    float: left; 
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color:rgb(9, 42, 134) ;
+}
+thead tr{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(36, 9, 134);
+    font: bold;
+    font-family:sans-serif;
+    font-size:x-large;
+}
+
+  a{
+    text-decoration:none;
+    color: rgb(53, 9, 134) ;
+    
+    display: inline-block;
+    padding-right:30 px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+a{
+    list-style-type: none;
+    border: 3px solid rgb(17, 9, 134);
+    background-color: black;
+    overflow: hidden;
+    padding: 35px;
+    margin: 5px;
+}
+a:hover{
+    color: black;
+    background-color:rgb(28, 9, 134) ;
+    border: black;
+}
+a.active{
+    background-color:rgb(11, 9, 134);
+    color: black;
+
+}
+legend{
+    color: rgb(28, 9, 134);
+}
+label{
+    color:rgb(9, 32, 134) ;
 }
