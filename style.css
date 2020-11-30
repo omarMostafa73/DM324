@@ -17,7 +17,7 @@ h3{
     color: rgb(53, 9, 134);
 }
 h4{
-    color: rgb(9, 59, 134);
+    color: rgb(9, 28, 134);
 }
 li{
     float: left; 
@@ -33,7 +33,7 @@ thead tr{
     color: rgb(36, 9, 134);
     font: bold;
     font-family:sans-serif;
-    font-size:x-large;
+    font-size:1000;
 }
 
   a{
@@ -41,7 +41,7 @@ thead tr{
     color: rgb(53, 9, 134) ;
     
     display: inline-block;
-    padding-right:30 px;
+    padding-right:100 px;
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom:30px;
